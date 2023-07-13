@@ -17,9 +17,31 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
+      # home.dart
+      import 'package:flutter/material.dart';
+
+class home extends StatelessWidget{
+
+@override
+Widget build(BuildContext context){
+  return Scaffold(
+
+    appBar: AppBar(
+
+      title: Text(
+        'Welcome To Home Page!',
+      ),
+      
+      
+    ),
+  
+     
+  );
+}
+}
 
        debugShowCheckedModeBanner: false,
-      home: home(),
+      home: ho
 
       
     );
